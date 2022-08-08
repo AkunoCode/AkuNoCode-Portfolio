@@ -1,0 +1,167 @@
+/* -------------- GLOBAL STYLES --------------*/
+* html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    margin: 0;
+  }
+  
+  *{
+    font-family: 'Michroma', sans-serif;
+  }
+  img {
+    width: 450px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-style: solid;
+  }
+  * a {
+    color: #65A5EC;
+    text-decoration: none;
+  }
+  * a:hover {
+    color: rgb(195, 0, 255);
+  }
+  * a:active {
+    color: rgb(61, 0, 117);
+  }
+  p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 55px;
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 25px;
+    margin-top: 0
+    ;
+  }
+  .content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 2fr;
+    gap: 30px;
+  }
+
+/* -------------- HEADER --------------*/
+header {
+    background-color: black;
+}
+header img{
+    border-style: none;
+    margin: 0;
+    background-image: none;
+    width: 300px;
+}
+header .content-wrapper{
+    padding: 10px;
+}
+
+
+/* -------------- TOP-LEFT --------------*/
+#Contact-Info{
+    background-color: rgb(195, 195, 195);
+    padding: 20px; 
+    border-style: solid;
+}
+#Contact-Info img{
+    width: 400px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+#Contact-Info h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+}
+#Contact-Info ul{
+    margin-left: 20px;
+}
+#Contact-Info a{
+    color: #3d638f;
+}
+#Contact-Info a:hover{
+    color: #9858d7;
+}
+
+/* -------------- TOP-RIGHT --------------*/
+#Name-Paragraph h1{
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+/* -------------- SKILLS AND LANGUAGES --------------*/
+.skills-certificates{
+  background-color: rgb(205, 205, 205);
+}
+.skills-certificates .grid-container{
+  display: grid;
+  grid-template-columns: 730px 750px;
+  gap: 30px;
+}
+.divider{
+  border-style: none groove none none;
+}
+/* -------------- CERTIFICATES AND ACHIEVEMENTS --------------*/
+
+/* -------------- EDUCATION --------------*/
+#Education dt h3{
+  font-size: 15px;
+}
+#Education .educline{
+  border-style: none none none groove;
+  margin-left: 20px;
+}
+#Education dl{
+  margin-left: 20px;
+}
+/* -------------- REFERENCE --------------*/
+/* -------------- PROJECTS --------------*/
+.Featured-Projects h3{
+  font-size: 40px;
+}
+
+.projects h2{
+  font-size: 60px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#GUI{
+  display: grid;
+  grid-template-columns: 500px 2fr;
+  gap: 30px;
+}
+/* FOOOTER */
+footer{
+  background-color: black;
+  color: white;
+}
+footer ul{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) ;
+}
+footer h3{
+  text-align: center;
+}
+footer li{
+  text-align: center;
+  list-style: none;
+}
+
