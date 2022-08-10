@@ -320,28 +320,6 @@ footer li{
   .projects{
     text-align: unset;
   }
-  /* ART */
-  .background-art{
-    display: unset;
-  }
-  .background-art .content-wrapper{
-    padding: 0;
-  }
-  .featured-art{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-  }
-  .art{
-    text-align: center;
-  }
-  .art h2{
-    margin-bottom: 0;
-    font-size: 60px;
-  }
-  .art p{
-    margin-top: 0;
-  }
   /* FOOTER */
   footer ul{
     display: grid;
