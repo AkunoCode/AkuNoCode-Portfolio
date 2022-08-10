@@ -29,8 +29,8 @@
   * a:active {
     color: rgb(61, 0, 117);
   }
-  p {
-    font-size: 16px;
+  * {
+    font-size: 14px;
   }
   h1 {
     font-size: 40px;
@@ -125,6 +125,7 @@ header .content-wrapper{
 .skills-certificates h2{
   text-align: center;
   font-size: 50px;
+  margin-top: 41.5px;
 }
 /* .skills-certificates .grid-container{
   display: grid;
@@ -175,6 +176,24 @@ header .content-wrapper{
   grid-template-columns: 500px 2fr;
   gap: 30px;
 } */
+/* FEATURED ART */
+.background-art{
+  background-color: rgb(205, 205, 205) ;
+  display: none;
+}
+.art{
+  text-align: center;
+}
+.art h2{
+  margin-bottom: 0;
+}
+.art p{
+  margin-top: 0;
+}
+.background-art{
+  align-content: center;
+}
+
 /* FOOOTER */
 footer{
   background-color: black;
@@ -193,6 +212,9 @@ footer li{
 }
 
 @media screen and (min-width:1235px) {
+  * {
+    font-size: unset;
+  }
   p {
     font-size: 20px;
   }
@@ -297,6 +319,28 @@ footer li{
   }
   .projects{
     text-align: unset;
+  }
+  /* ART */
+  .background-art{
+    display: unset;
+  }
+  .background-art .content-wrapper{
+    padding: 0;
+  }
+  .featured-art{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .art{
+    text-align: center;
+  }
+  .art h2{
+    margin-bottom: 0;
+    font-size: 60px;
+  }
+  .art p{
+    margin-top: 0;
   }
   /* FOOTER */
   footer ul{
