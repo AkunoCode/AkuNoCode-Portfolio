@@ -157,9 +157,11 @@ header .content-wrapper{
 .projects h2{
   font-size: 60px;
   text-align: center;
+  margin-bottom: 0;
 }
 .center {
   text-align: center;
+  margin-bottom: 5%;
 }
 .projects img{
   display: block;
@@ -176,24 +178,12 @@ header .content-wrapper{
   grid-template-columns: 500px 2fr;
   gap: 30px;
 } */
-/* FEATURED ART */
-.background-art{
-  background-color: rgb(205, 205, 205) ;
-  display: none;
-}
-.art{
-  text-align: center;
-}
-.art h2{
+#JSF1 {
   margin-bottom: 0;
 }
-.art p{
+#JSF2{
   margin-top: 0;
 }
-.background-art{
-  align-content: center;
-}
-
 /* FOOOTER */
 footer{
   background-color: black;
