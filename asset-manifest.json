@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css",
+    "main.js": "/AkuNoCode-Portfolio/static/js/main.5f9c1b94.js",
+    "static/js/787.843a559b.chunk.js": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js",
+    "index.html": "/AkuNoCode-Portfolio/index.html",
+    "main.aaf6faeb.css.map": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css.map",
+    "main.5f9c1b94.js.map": "/AkuNoCode-Portfolio/static/js/main.5f9c1b94.js.map",
+    "787.843a559b.chunk.js.map": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf6faeb.css",
+    "static/js/main.5f9c1b94.js"
+  ]
+}
