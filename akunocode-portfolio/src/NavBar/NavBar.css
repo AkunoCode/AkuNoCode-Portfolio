@@ -1,0 +1,24 @@
+#NavBar {
+    background-color: var(--Pastel-Blue);
+    margin: 0;
+    padding: .5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .5rem solid var(--Text-Black);
+}
+
+#PageName {
+    margin: 0px;
+    font-size: 3.5rem;
+}
+
+#Icons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#Icons svg {
+    margin: 0px 1rem;
+}

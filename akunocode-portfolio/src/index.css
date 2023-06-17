@@ -1,0 +1,28 @@
+:root {
+  --Pastel-Blue: rgba(141, 209, 196, 1);
+  --Pastel-Yellow: rgba(255, 245, 157, 1);
+  --Text-Black: rgba(8, 5, 16, 1);
+  --ThickLine: .2rem;
+  --NormalFont: 'Quicksand', sans-serif;
+  --TitleFont: 'Fredoka', sans-serif;
+}
+
+#root {
+  margin-top: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--NormalFont);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body h1 {
+  font-family: var(--TitleFont);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
