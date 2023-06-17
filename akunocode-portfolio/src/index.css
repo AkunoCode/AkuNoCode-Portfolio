@@ -5,6 +5,26 @@
   --ThickLine: .2rem;
   --NormalFont: 'Quicksand', sans-serif;
   --TitleFont: 'Fredoka', sans-serif;
+  font-size: 1vw;
+}
+
+@media (min-width:320px) and (max-width:600px) {
+  :root {
+    --Pastel-Blue: rgba(141, 209, 196, 1);
+    --Pastel-Yellow: rgba(255, 245, 157, 1);
+    --Text-Black: rgba(8, 5, 16, 1);
+    --ThickLine: .2rem;
+    --NormalFont: 'Quicksand', sans-serif;
+    --TitleFont: 'Fredoka', sans-serif;
+    font-size: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--Text-Black);
+  font-family: var(--NormalFont);
+  font-weight: bold;
 }
 
 #root {

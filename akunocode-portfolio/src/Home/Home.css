@@ -1,0 +1,393 @@
+#HomePage {
+    /* background-color: var(--Pastel-Yellow); */
+    padding-top: .1rem;
+}
+
+#Explore-Button {
+    background-color: var(--Pastel-Blue);
+    font-size: 3rem;
+    /* margin-top: 1r; */
+    padding: .5rem 3rem;
+    border: .5rem solid var(--Text-Black);
+    width: 30%;
+    border-radius: .5rem;
+    animation: Heartbeat 1s 1s infinite ease-in-out both;
+}
+
+#Hero-Section {
+    margin: 0;
+    height: 700px;
+    width: 100%;
+    border-bottom: .5rem solid var(--Text-Black);
+}
+
+#Hero-Texts {
+    animation: LeftToRight 1s ease-in-out both
+}
+
+#Hero-Content h1 {
+    margin: 0;
+    font-size: 9rem;
+    line-height: 7rem;
+    letter-spacing: .1rem;
+}
+
+#Hero-Content h2 {
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    word-spacing: .5px;
+    /* line-height: 1rem; */
+    letter-spacing: .00001rem;
+    margin-bottom: 3rem;
+}
+
+#Hero-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    /* background-color: red; */
+    height: 100%;
+    max-height: 700px;
+
+}
+
+#Profile-Section {
+    width: 43.5%;
+    text-align: center;
+}
+
+#ImageContainer {
+    width: 100%;
+    height: 34.5vw;
+    /* background-color: green; */
+    position: relative;
+}
+
+
+#ProfilePic {
+    position: absolute;
+    z-index: 2;
+    bottom: 3rem;
+    left: 0;
+    height: 100%;
+    animation: PopOut 1s ease-in-out both;
+}
+
+#ProfileFrame {
+    position: absolute;
+    bottom: 3rem;
+    width: 95%;
+    height: 80%;
+    background-color: var(--Pastel-Yellow);
+    border: .75rem solid var(--Text-Black);
+    /* border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem; */
+    animation: PopOut 1s ease-in-out both, ShadowAppear 1s ease-in-out both
+}
+
+#LinkIcons {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 20rem;
+    position: absolute;
+    z-index: 3;
+    left: -2rem;
+    top: 4rem;
+    animation: PopOut 1s ease-in-out both
+}
+
+
+#LinkIcons svg {
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#Github {
+    animation: PopAppear .5s .75s ease-in-out both;
+}
+
+#Google {
+    animation: PopAppear .5s 1s ease-in-out both;
+}
+
+#Facebook {
+    animation: PopAppear .5s 1.25s ease-in-out both;
+}
+
+#Instagram {
+    animation: PopAppear .5s 1.5s ease-in-out both;
+}
+
+
+@keyframes Heartbeat {
+    100% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+
+    0% {
+        transform: rotate(-2deg)
+    }
+}
+
+
+@keyframes PopAppear {
+    to {
+        transform: scale(0px, 0px);
+        /* opacity: 100%; */
+    }
+
+    from {
+        transform: scale(-100%, -100%);
+        /* opacity: 0%; */
+    }
+
+}
+
+@keyframes LeftToRight {
+    to {
+        transform: translate(0px, 0px);
+        opacity: 100%;
+    }
+
+    from {
+        transform: translate(-20rem, 0px);
+        opacity: 0%;
+    }
+}
+
+@keyframes PopOut {
+    to {
+        transform: translate(0px, 0px);
+    }
+
+    from {
+        transform: translate(2rem, 2rem);
+    }
+
+}
+
+@keyframes ShadowAppear {
+    to {
+        box-shadow: 2rem 2rem 0px rgba(99, 90, 107, 0.479);
+    }
+
+    from {
+        box-shadow: 0rem 0rem 0px var(--Text-Black);
+    }
+}
+
+
+
+
+
+/* MOBILE LAYOUT -------------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:320px) and (max-width:600px) {
+    #HomePage {
+        /* background-color: var(--Pastel-Yellow); */
+        padding-top: .1rem;
+    }
+
+    #Explore-Button {
+        background-color: var(--Pastel-Blue);
+        font-size: 1rem;
+        /* margin-top: 1r; */
+        margin: 0 auto;
+        padding: .5rem 3rem;
+        border: .3rem solid var(--Text-Black);
+        width: 20%;
+        animation: Heartbeat 1s 1s infinite ease-in-out both;
+    }
+
+    #Hero-Section {
+        margin: 0;
+        height: 600px;
+        width: 100%;
+        border-bottom: .3rem solid var(--Text-Black);
+    }
+
+    #Hero-Texts {
+        animation: LeftToRight 1s ease-in-out both;
+        order: 1;
+    }
+
+    #Hero-Content h1 {
+        margin: 0;
+        margin-top: -.5rem;
+        text-align: center;
+        font-size: 4.5rem;
+        line-height: 3rem;
+        letter-spacing: .1rem;
+    }
+
+    #Hello {
+        font-size: 3.5rem;
+    }
+
+    #Hero-Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0px auto;
+        /* background-color: red; */
+        height: 100%;
+        max-height: 700px;
+
+    }
+
+    #Hero-Content h2 {
+        margin-top: .5rem;
+        text-align: center;
+        margin-left: 0px;
+        font-size: .90rem;
+        font-weight: bold;
+        word-spacing: .5px;
+        /* line-height: 1rem; */
+        letter-spacing: .00001rem;
+        margin-bottom: 5rem;
+    }
+
+
+    #Profile-Section {
+        width: 80%;
+        text-align: center;
+    }
+
+    #ImageContainer {
+        margin-top: 1.5rem;
+        width: 100%;
+        height: 66vw;
+        /* background-color: green; */
+        position: relative;
+
+    }
+
+
+    #ProfilePic {
+        position: absolute;
+        z-index: 2;
+        bottom: 3rem;
+        left: 0;
+        height: 100%;
+        animation: PopOut 1s ease-in-out both;
+    }
+
+    #ProfileFrame {
+        position: absolute;
+        bottom: 3rem;
+        width: 100%;
+        height: 80%;
+        background-color: var(--Pastel-Yellow);
+        border: .3rem solid var(--Text-Black);
+        animation: PopOut 1s ease-in-out both, ShadowAppear 1s ease-in-out both
+    }
+
+    #LinkIcons {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 0rem;
+        position: absolute;
+        z-index: 3;
+        left: -.80rem;
+        top: 1rem;
+        animation: PopOut 1s ease-in-out both;
+        margin: 0;
+    }
+
+
+    #LinkIcons svg {
+        height: 2rem;
+        width: 2rem;
+        cursor: pointer;
+    }
+
+    #Github {
+        animation: PopAppear .5s .75s ease-in-out both;
+    }
+
+    #Google {
+        animation: PopAppear .5s 1s ease-in-out both;
+    }
+
+    #Facebook {
+        animation: PopAppear .5s 1.25s ease-in-out both;
+    }
+
+    #Instagram {
+        animation: PopAppear .5s 1.5s ease-in-out both;
+    }
+
+    @keyframes Heartbeat {
+        100% {
+            transform: rotate(-2deg);
+        }
+
+        50% {
+            transform: rotate(2deg);
+        }
+
+        0% {
+            transform: rotate(-2deg)
+        }
+    }
+
+
+    @keyframes PopAppear {
+        to {
+            transform: scale(0px, 0px);
+            opacity: 100%;
+        }
+
+        from {
+            transform: scale(-100%, -100%);
+            opacity: 0%;
+        }
+
+    }
+
+    @keyframes LeftToRight {
+        to {
+            transform: translate(0px, 0px);
+            opacity: 100%;
+        }
+
+        from {
+            transform: translate(-20rem, 0px);
+            opacity: 0%;
+        }
+    }
+
+    @keyframes PopOut {
+        to {
+            transform: translate(0px, 0px);
+        }
+
+        from {
+            transform: translate(1rem, 1rem);
+        }
+
+    }
+
+    @keyframes ShadowAppear {
+        to {
+            box-shadow: .75rem .75rem 0px rgba(99, 90, 107, 0.479);
+        }
+
+        from {
+            box-shadow: 0rem 0rem 0px var(--Text-Black);
+        }
+    }
+
+}

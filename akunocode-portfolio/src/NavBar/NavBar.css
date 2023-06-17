@@ -11,6 +11,7 @@
 #PageName {
     margin: 0px;
     font-size: 3.5rem;
+    font-family: var(--NormalFont);
 }
 
 #Icons {
@@ -21,4 +22,34 @@
 
 #Icons svg {
     margin: 0px 1rem;
+    width: 2rem;
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    #NavBar {
+        background-color: var(--Pastel-Blue);
+        margin: 0;
+        padding: .05rem .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: .3rem solid var(--Text-Black);
+    }
+
+    #PageName {
+        margin: 0px;
+        font-size: 1.7rem;
+        font-family: var(--NormalFont);
+    }
+
+    #Icons {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    #Icons svg {
+        margin: 0px .2rem;
+        width: 1rem;
+    }
 }
