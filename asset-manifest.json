@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css",
-    "main.js": "/AkuNoCode-Portfolio/static/js/main.bc150a4b.js",
+    "main.js": "/AkuNoCode-Portfolio/static/js/main.40ae33ba.js",
     "static/js/787.843a559b.chunk.js": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js",
     "index.html": "/AkuNoCode-Portfolio/index.html",
     "main.aaf6faeb.css.map": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css.map",
-    "main.bc150a4b.js.map": "/AkuNoCode-Portfolio/static/js/main.bc150a4b.js.map",
+    "main.40ae33ba.js.map": "/AkuNoCode-Portfolio/static/js/main.40ae33ba.js.map",
     "787.843a559b.chunk.js.map": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaf6faeb.css",
-    "static/js/main.bc150a4b.js"
+    "static/js/main.40ae33ba.js"
   ]
 }
