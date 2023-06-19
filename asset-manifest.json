@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css",
-    "main.js": "/AkuNoCode-Portfolio/static/js/main.04499fb3.js",
+    "main.css": "/AkuNoCode-Portfolio/static/css/main.4eb1ce90.css",
+    "main.js": "/AkuNoCode-Portfolio/static/js/main.74fc0631.js",
     "static/js/787.843a559b.chunk.js": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js",
     "static/media/NoBG_Profile.png": "/AkuNoCode-Portfolio/static/media/NoBG_Profile.587a887ec45e5dce899f.png",
     "index.html": "/AkuNoCode-Portfolio/index.html",
-    "main.aaf6faeb.css.map": "/AkuNoCode-Portfolio/static/css/main.aaf6faeb.css.map",
-    "main.04499fb3.js.map": "/AkuNoCode-Portfolio/static/js/main.04499fb3.js.map",
+    "main.4eb1ce90.css.map": "/AkuNoCode-Portfolio/static/css/main.4eb1ce90.css.map",
+    "main.74fc0631.js.map": "/AkuNoCode-Portfolio/static/js/main.74fc0631.js.map",
     "787.843a559b.chunk.js.map": "/AkuNoCode-Portfolio/static/js/787.843a559b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaf6faeb.css",
-    "static/js/main.04499fb3.js"
+    "static/css/main.4eb1ce90.css",
+    "static/js/main.74fc0631.js"
   ]
 }
