@@ -1,6 +1,7 @@
 import './Home.css';
+import Profile from '../NoBG_Profile.png'
 
-function App() {
+function Home() {
   return (
     <div id='HomePage'>
       <div id="Hero-Section">
@@ -14,7 +15,7 @@ function App() {
           </div>
           <div id='Profile-Section'>
             <div id='ImageContainer'>
-              <img src='./NoBG_Profile.png' alt="Leo's Profile Pic" id='ProfilePic' />
+              <img src={Profile} alt="Leo's Profile Pic" id='ProfilePic' />
               <div id='ProfileFrame'></div>
               <div id='LinkIcons'>
                 <a href='https://github.com/AkunoCode' target='blank'>
@@ -71,4 +72,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
