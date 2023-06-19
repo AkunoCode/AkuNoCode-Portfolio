@@ -1,0 +1,30 @@
+{
+  "name": "akunocode-portfolio",
+  "version": "1.0.0",
+  "description": "Personal web portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "node.js": "^0.0.1-security",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkunoCode/AkuNoCode-Portfolio.git"
+  },
+  "keywords": [
+    "personal-portfolio",
+    "portfolio",
+    "react"
+  ],
+  "author": "John Leo D. Echevaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkunoCode/AkuNoCode-Portfolio/issues"
+  },
+  "homepage": "https://github.com/AkunoCode/AkuNoCode-Portfolio#readme"
+}
